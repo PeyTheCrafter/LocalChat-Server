@@ -38,6 +38,7 @@ public class Server {
 	}
 
 	private void logInfo(String log) {
+		System.out.println("[INFO] " + log);
 		Controller.getInstance().addLog("[INFO] " + log);
 	}
 }
